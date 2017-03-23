@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "baseUrl": "src"
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
