@@ -2,9 +2,10 @@ import * as React from 'react';
 import { Button, Toggle } from 'office-ui-fabric-react';
 
 export default () => {
+    console.log('test.');
     return (
         <div>
-            <Button>我是一个按钮</Button>
+            <Button>按</Button>
             <Toggle
                 defaultChecked={true}
                 label='Enabled and checked'

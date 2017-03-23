@@ -14882,8 +14882,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var office_ui_fabric_react_1 = __webpack_require__(371);
 exports.default = function () {
+    console.log('test.');
     return (React.createElement("div", null,
-        React.createElement(office_ui_fabric_react_1.Button, null, "\u6211\u662F\u4E00\u4E2A\u6309\u94AE"),
+        React.createElement(office_ui_fabric_react_1.Button, null, "\u6309\u94AE"),
         React.createElement(office_ui_fabric_react_1.Toggle, { defaultChecked: true, label: 'Enabled and checked', onText: 'On', offText: 'Off' }),
         React.createElement(office_ui_fabric_react_1.Toggle, { defaultChecked: false, label: 'Enabled and unchecked', onText: 'On', offText: 'Off' }),
         React.createElement(office_ui_fabric_react_1.Toggle, { defaultChecked: true, disabled: true, label: 'Disabled and checked', onText: 'On', offText: 'Off' }),

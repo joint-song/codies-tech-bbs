@@ -17,5 +17,8 @@
     "typescript": "^2.2.1",
     "webpack": "^2.3.1",
     "webpack-dev-server": "^2.4.2"
+  },
+  "scripts": {
+    "dev-server": "node ./webpack.dev.server.js"
   }
 }
