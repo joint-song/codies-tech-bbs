@@ -72,8 +72,13 @@
 
 "use strict";
 
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(__webpack_require__(182));
 
-module.exports = __webpack_require__(33);
+//# sourceMappingURL=Utilities.js.map
 
 
 /***/ }),
@@ -82,13 +87,8 @@ module.exports = __webpack_require__(33);
 
 "use strict";
 
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(182));
 
-//# sourceMappingURL=Utilities.js.map
+module.exports = __webpack_require__(33);
 
 
 /***/ }),
@@ -2945,8 +2945,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DirectionalHint_1 = __webpack_require__(12);
 var ContextualMenu_1 = __webpack_require__(35);
 var BaseButton_scss_1 = __webpack_require__(230);
@@ -4405,9 +4405,9 @@ var CheckboxVisibility;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var GroupSpacer_scss_1 = __webpack_require__(298);
 var SPACER_WIDTH = 36;
 exports.GroupSpacer = function (props) {
@@ -6110,11 +6110,11 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var ReactDOM = __webpack_require__(52);
 /* tslint:enable:no-unused-variable */
 var Fabric_1 = __webpack_require__(98);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Layer_scss_1 = __webpack_require__(310);
 var _layersByHostId = {};
 var Layer = (function (_super) {
@@ -6350,8 +6350,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var FocusZone_1 = __webpack_require__(10);
 var Callout_1 = __webpack_require__(20);
 var index_1 = __webpack_require__(21);
@@ -9889,7 +9889,7 @@ exports.DateRangeType = DateValues_1.DateRangeType;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var colorValues_1 = __webpack_require__(258);
 exports.MAX_COLOR_SATURATION = 100;
 exports.MAX_COLOR_HUE = 359;
@@ -10188,8 +10188,8 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DetailsList_Props_1 = __webpack_require__(44);
 var DetailsRowCheck_1 = __webpack_require__(112);
 var GroupSpacer_1 = __webpack_require__(45);
@@ -10397,9 +10397,9 @@ exports.DetailsRow = DetailsRow;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Check_1 = __webpack_require__(55);
 var DetailsRow_scss_1 = __webpack_require__(62);
 exports.DetailsRowCheck = function (props) {
@@ -10483,8 +10483,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Dialog_scss_1 = __webpack_require__(114);
 var DialogFooter = (function (_super) {
     __extends(DialogFooter, _super);
@@ -10717,9 +10717,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Image_Props_1 = __webpack_require__(122);
 var Image_scss_1 = __webpack_require__(305);
 var CoverStyle;
@@ -11112,7 +11112,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var PivotItem = (function (_super) {
     __extends(PivotItem, _super);
     function PivotItem() {
@@ -11285,9 +11285,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Button_1 = __webpack_require__(11);
 var Image_1 = __webpack_require__(26);
 var TeachingBubble_scss_1 = __webpack_require__(133);
@@ -11379,9 +11379,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Tooltip_Props_1 = __webpack_require__(67);
 var Callout_1 = __webpack_require__(20);
 var DirectionalHint_1 = __webpack_require__(12);
@@ -11472,8 +11472,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var SELECTION_FORWARD = 'forward';
 var SELECTION_BACKWARD = 'backward';
 var BaseAutoFill = (function (_super) {
@@ -11720,8 +11720,8 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Button_1 = __webpack_require__(11);
 var Spinner_1 = __webpack_require__(58);
 var Suggestions_scss_1 = __webpack_require__(367);
@@ -11905,9 +11905,9 @@ exports.SuggestionsController = SuggestionsController;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var TagItem_scss_1 = __webpack_require__(368);
 exports.TagItem = function (props) { return (React.createElement("div", { className: Utilities_1.css('ms-TagItem', TagItem_scss_1.default.root, { 'is-selected': props.selected }, props.selected && TagItem_scss_1.default.isSelected), key: props.index, "data-selection-index": props.index, "data-is-focusable": true },
     React.createElement("span", { className: Utilities_1.css('ms-TagItem-text', TagItem_scss_1.default.tagItemText) }, props.children),
@@ -12127,7 +12127,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var BaseDecorator = (function (_super) {
     __extends(BaseDecorator, _super);
     function BaseDecorator() {
@@ -12182,9 +12182,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var BaseDecorator_1 = __webpack_require__(144);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var ResponsiveMode;
 (function (ResponsiveMode) {
     ResponsiveMode[ResponsiveMode["small"] = 0] = "small";
@@ -14879,17 +14879,15 @@ module.exports = g;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var office_ui_fabric_react_1 = __webpack_require__(371);
+var Utilities_1 = __webpack_require__(0);
 exports.default = function () {
-    console.log('test.');
     return (React.createElement("div", null,
         React.createElement(office_ui_fabric_react_1.Button, null, "\u6309\u94AE"),
-        React.createElement(office_ui_fabric_react_1.Toggle, { defaultChecked: true, label: 'Enabled and checked', onText: 'On', offText: 'Off' }),
-        React.createElement(office_ui_fabric_react_1.Toggle, { defaultChecked: false, label: 'Enabled and unchecked', onText: 'On', offText: 'Off' }),
-        React.createElement(office_ui_fabric_react_1.Toggle, { defaultChecked: true, disabled: true, label: 'Disabled and checked', onText: 'On', offText: 'Off' }),
-        React.createElement(office_ui_fabric_react_1.Toggle, { defaultChecked: false, disabled: true, label: 'Disabled and unchecked', onText: 'On', offText: 'Off' }),
-        React.createElement("span", null, "Hello, world!")));
+        React.createElement("i", { className: Utilities_1.css('ms-Icon ms-Icon--Mail'), "aria-hidden": "true" }),
+        React.createElement("div", { className: Utilities_1.css('ms-u-hiddenMdDown') },
+            React.createElement(office_ui_fabric_react_1.Toggle, { defaultChecked: false, checked: true, label: 'Enabled and checked', onText: 'On', offText: 'Off' }))));
 };
 
 
@@ -14996,7 +14994,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var Async_1 = __webpack_require__(90);
 var EventGroup_1 = __webpack_require__(53);
 var BaseComponent = (function (_super) {
@@ -15191,7 +15189,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /**
  * Utility component for delaying the render of a child component after a given delay. This component
  * requires a single child component; don't pass in many components. Wrap multiple components in a DIV
@@ -17250,8 +17248,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var FocusZone_1 = __webpack_require__(10);
 var ContextualMenu_1 = __webpack_require__(35);
 var Link_1 = __webpack_require__(56);
@@ -17499,9 +17497,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Button_Props_1 = __webpack_require__(102);
 var DefaultButton_1 = __webpack_require__(105);
 var CommandButton_1 = __webpack_require__(103);
@@ -17705,11 +17703,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var DateValues_1 = __webpack_require__(69);
 var CalendarDay_1 = __webpack_require__(239);
 var CalendarMonth_1 = __webpack_require__(240);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Calendar_scss_1 = __webpack_require__(60);
 var Calendar = (function (_super) {
     __extends(Calendar, _super);
@@ -17860,8 +17858,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var FocusZone_1 = __webpack_require__(10);
 var DateMath_1 = __webpack_require__(143);
 var Calendar_scss_1 = __webpack_require__(60);
@@ -18034,8 +18032,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var FocusZone_1 = __webpack_require__(10);
 var DateMath_1 = __webpack_require__(143);
 var Calendar_scss_1 = __webpack_require__(60);
@@ -18136,9 +18134,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var CalloutContent_1 = __webpack_require__(244);
 var Layer_1 = __webpack_require__(42);
 var Callout = (function (_super) {
@@ -18204,9 +18202,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var DirectionalHint_1 = __webpack_require__(12);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var positioning_1 = __webpack_require__(374);
 var Popup_1 = __webpack_require__(101);
 var Callout_scss_1 = __webpack_require__(243);
@@ -18480,8 +18478,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Check_scss_1 = __webpack_require__(247);
 var Check = (function (_super) {
     __extends(Check, _super);
@@ -18579,8 +18577,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Checkbox_scss_1 = __webpack_require__(250);
 var Checkbox = (function (_super) {
     __extends(Checkbox, _super);
@@ -18730,11 +18728,11 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var Image_1 = __webpack_require__(26);
 var Label_1 = __webpack_require__(27);
 var Icon_1 = __webpack_require__(25);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var ChoiceGroup_scss_1 = __webpack_require__(253);
 var ChoiceGroup = (function (_super) {
     __extends(ChoiceGroup, _super);
@@ -18932,8 +18930,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var TextField_1 = __webpack_require__(59);
 var ColorRectangle_1 = __webpack_require__(256);
 var ColorSlider_1 = __webpack_require__(257);
@@ -19041,8 +19039,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var colors_1 = __webpack_require__(109);
 var ColorPicker_scss_1 = __webpack_require__(61);
 var ColorRectangle = (function (_super) {
@@ -19152,8 +19150,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var ColorPicker_scss_1 = __webpack_require__(61);
 var ColorSlider = (function (_super) {
     __extends(ColorSlider, _super);
@@ -19437,8 +19435,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var FocusZone_1 = __webpack_require__(10);
 var ContextualMenu_1 = __webpack_require__(35);
 var DirectionalHint_1 = __webpack_require__(12);
@@ -19773,11 +19771,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var ContextualMenu_Props_1 = __webpack_require__(110);
 var DirectionalHint_1 = __webpack_require__(12);
 var FocusZone_1 = __webpack_require__(10);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Callout_1 = __webpack_require__(20);
 var Icon_1 = __webpack_require__(25);
 var ContextualMenu_scss_1 = __webpack_require__(264);
@@ -20189,12 +20187,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var Calendar_1 = __webpack_require__(97);
 var Callout_1 = __webpack_require__(20);
 var DirectionalHint_1 = __webpack_require__(12);
 var TextField_1 = __webpack_require__(59);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DatePicker_scss_1 = __webpack_require__(267);
 var DEFAULT_STRINGS = {
     months: [
@@ -20553,8 +20551,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DetailsList_Props_1 = __webpack_require__(44);
 var FocusZone_1 = __webpack_require__(10);
 var Check_1 = __webpack_require__(55);
@@ -20859,8 +20857,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DetailsList_Props_1 = __webpack_require__(44);
 var DetailsHeader_1 = __webpack_require__(269);
 var DetailsRow_1 = __webpack_require__(111);
@@ -21348,8 +21346,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DetailsRow_scss_1 = __webpack_require__(62);
 var DetailsRowFields = (function (_super) {
     __extends(DetailsRowFields, _super);
@@ -21452,8 +21450,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var index_1 = __webpack_require__(63);
 var Dialog_Props_1 = __webpack_require__(113);
 var Overlay_1 = __webpack_require__(57);
@@ -21622,9 +21620,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var DocumentCard_Props_1 = __webpack_require__(117);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DocumentCard_scss_1 = __webpack_require__(29);
 var DocumentCard = (function (_super) {
     __extends(DocumentCard, _super);
@@ -21714,8 +21712,8 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Button_1 = __webpack_require__(11);
 var DocumentCard_scss_1 = __webpack_require__(29);
 var DocumentCardActions = (function (_super) {
@@ -21759,8 +21757,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Image_1 = __webpack_require__(26);
 var DocumentCard_scss_1 = __webpack_require__(29);
 var DocumentCardActivity = (function (_super) {
@@ -21821,8 +21819,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DocumentCard_scss_1 = __webpack_require__(29);
 var DocumentCardLocation = (function (_super) {
     __extends(DocumentCardLocation, _super);
@@ -21863,9 +21861,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var Image_1 = __webpack_require__(26);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DocumentCard_scss_1 = __webpack_require__(29);
 var LIST_ITEM_COUNT = 3;
 var DocumentCardPreview = (function (_super) {
@@ -21957,9 +21955,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DocumentCard_scss_1 = __webpack_require__(29);
 var TRUNCATION_SEPARATOR = '&hellip;';
 var TRUNCATION_MINIMUM_LENGTH = 40; // This is the length we know can fit into the min width of DocumentCard.
@@ -22126,7 +22124,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var DirectionalHint_1 = __webpack_require__(12);
 var Callout_1 = __webpack_require__(20);
 var Label_1 = __webpack_require__(27);
@@ -22134,7 +22132,7 @@ var Button_1 = __webpack_require__(11);
 var Panel_1 = __webpack_require__(100);
 var FocusZone_1 = __webpack_require__(10);
 var withResponsiveMode_1 = __webpack_require__(145);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Dropdown_scss_1 = __webpack_require__(284);
 var Dropdown = Dropdown_1 = (function (_super) {
     __extends(Dropdown, _super);
@@ -22442,8 +22440,8 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DIRECTIONAL_KEY_CODES = [
     Utilities_1.KeyCodes.up,
     Utilities_1.KeyCodes.down,
@@ -22549,8 +22547,8 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Facepile_Props_1 = __webpack_require__(118);
 var FocusZone_1 = __webpack_require__(10);
 var Button_1 = __webpack_require__(11);
@@ -22726,8 +22724,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var FocusTrapZone = (function (_super) {
     __extends(FocusTrapZone, _super);
     function FocusTrapZone() {
@@ -22882,9 +22880,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var FocusZone_Props_1 = __webpack_require__(119);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var IS_FOCUSABLE_ATTRIBUTE = 'data-is-focusable';
 var IS_ENTER_DISABLED_ATTRIBUTE = 'data-disable-click-on-enter';
 var FOCUSZONE_ID_ATTRIBUTE = 'data-focuszone-id';
@@ -23431,8 +23429,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Link_1 = __webpack_require__(56);
 var GroupSpacer_1 = __webpack_require__(45);
 var GroupFooter_scss_1 = __webpack_require__(295);
@@ -23504,8 +23502,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var index_1 = __webpack_require__(21);
 var Check_1 = __webpack_require__(55);
 var Icon_1 = __webpack_require__(25);
@@ -23682,8 +23680,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var GroupedListSection_1 = __webpack_require__(300);
 var List_1 = __webpack_require__(43);
 var index_1 = __webpack_require__(21);
@@ -23883,13 +23881,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var index_1 = __webpack_require__(21);
 var GroupFooter_1 = __webpack_require__(294);
 var GroupHeader_1 = __webpack_require__(296);
 var List_1 = __webpack_require__(43);
-var Utilities_2 = __webpack_require__(1);
+var Utilities_2 = __webpack_require__(0);
 var GroupedList_scss_1 = __webpack_require__(120);
 var DEFAULT_DROPPING_CSS_CLASS = 'is-dropping';
 var GroupedListSection = (function (_super) {
@@ -24114,11 +24112,11 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var Icon_scss_1 = __webpack_require__(303);
 var IconType_1 = __webpack_require__(121);
 var Image_1 = __webpack_require__(123);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 exports.Icon = function (props) {
     var customIcon = props.iconName === 'None';
     var iconClassName = props.iconName ? ('ms-Icon--' + props.iconName) : '';
@@ -24243,8 +24241,8 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Label_scss_1 = __webpack_require__(308);
 var Label = (function (_super) {
     __extends(Label, _super);
@@ -24350,8 +24348,8 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Layer_1 = __webpack_require__(64);
 var LayerHost = (function (_super) {
     __extends(LayerHost, _super);
@@ -24424,8 +24422,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Link_scss_1 = __webpack_require__(314);
 var Link = (function (_super) {
     __extends(Link, _super);
@@ -24528,8 +24526,8 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var RESIZE_DELAY = 16;
 var MIN_SCROLL_UPDATE_DELAY = 100;
 var MAX_SCROLL_UPDATE_DELAY = 500;
@@ -25148,8 +25146,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var MarqueeSelection_scss_1 = __webpack_require__(319);
 // We want to make the marquee selection start when the user drags a minimum distance. Otherwise we'd start
 // the drag even if they just click an item without moving.
@@ -25393,8 +25391,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Button_1 = __webpack_require__(11);
 var MessageBar_Props_1 = __webpack_require__(124);
 var MessageBar_scss_1 = __webpack_require__(321);
@@ -25569,8 +25567,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var FocusZone_1 = __webpack_require__(10);
 var Button_1 = __webpack_require__(11);
 var Nav_scss_1 = __webpack_require__(324);
@@ -25836,8 +25834,8 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Overlay_scss_1 = __webpack_require__(327);
 var Overlay = (function (_super) {
     __extends(Overlay, _super);
@@ -25928,9 +25926,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var index_1 = __webpack_require__(63);
 var Panel_Props_1 = __webpack_require__(125);
 var Layer_1 = __webpack_require__(64);
@@ -26210,8 +26208,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Image_1 = __webpack_require__(26);
 var Persona_Props_1 = __webpack_require__(65);
 var PersonaConsts_1 = __webpack_require__(127);
@@ -26374,8 +26372,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Button_1 = __webpack_require__(11);
 var FocusZone_1 = __webpack_require__(10);
 var PivotItem_1 = __webpack_require__(128);
@@ -26642,8 +26640,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 /**
  * This adds accessibility to Dialog and Panel controls
  */
@@ -26727,9 +26725,9 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var ProgressIndicator_scss_1 = __webpack_require__(339);
 // if the percentComplete is near 0, don't animate it.
 // This prevents animations on reset to 0 scenarios
@@ -26827,8 +26825,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Rating_Props_1 = __webpack_require__(130);
 var Rating_scss_1 = __webpack_require__(342);
 var Rating = (function (_super) {
@@ -26998,8 +26996,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 __webpack_require__(131);
 var SearchBox_scss_1 = __webpack_require__(131);
 var SearchBox = (function (_super) {
@@ -27165,8 +27163,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Label_1 = __webpack_require__(27);
 var Slider_scss_1 = __webpack_require__(347);
 var ValuePosition;
@@ -27419,8 +27417,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Spinner_Props_1 = __webpack_require__(132);
 var Spinner_scss_1 = __webpack_require__(350);
 var Spinner = (function (_super) {
@@ -27523,9 +27521,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var TeachingBubbleContent_1 = __webpack_require__(134);
 var Callout_1 = __webpack_require__(20);
 var DirectionalHint_1 = __webpack_require__(12);
@@ -27601,9 +27599,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var Label_1 = __webpack_require__(27);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var TextField_scss_1 = __webpack_require__(355);
 var TextField = (function (_super) {
     __extends(TextField, _super);
@@ -27938,8 +27936,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Label_1 = __webpack_require__(27);
 var Toggle_scss_1 = __webpack_require__(358);
 var Toggle = (function (_super) {
@@ -28103,9 +28101,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable:no-unused-variable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable:no-unused-variable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Tooltip_1 = __webpack_require__(135);
 var Tooltip_Props_1 = __webpack_require__(67);
 var Tooltip_scss_1 = __webpack_require__(136);
@@ -28229,7 +28227,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable */
 var BasePicker_1 = __webpack_require__(68);
 var SelectedItemDefault_1 = __webpack_require__(364);
@@ -28317,9 +28315,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Persona_1 = __webpack_require__(36);
 var Button_1 = __webpack_require__(11);
 var PickerItemsDefault_scss_1 = __webpack_require__(139);
@@ -28365,9 +28363,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Persona_1 = __webpack_require__(36);
 var ContextualMenu_1 = __webpack_require__(35);
 var Button_1 = __webpack_require__(11);
@@ -28424,9 +28422,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable */
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Persona_1 = __webpack_require__(36);
 var PeoplePicker_scss_1 = __webpack_require__(138);
 exports.SuggestionItemNormal = function (personaProps) {
@@ -28515,7 +28513,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 /* tslint:disable */
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 /* tslint:enable */
 var BasePicker_1 = __webpack_require__(68);
 var TagItem_1 = __webpack_require__(142);
@@ -28615,7 +28613,7 @@ __export(__webpack_require__(224));
 __export(__webpack_require__(59));
 __export(__webpack_require__(225));
 __export(__webpack_require__(226));
-__export(__webpack_require__(1));
+__export(__webpack_require__(0));
 
 //# sourceMappingURL=index.js.map
 
@@ -28645,9 +28643,9 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var BaseDecorator_1 = __webpack_require__(144);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var RESIZE_DELAY = 500;
 function withViewport(ComposedComponent) {
     return (function (_super) {
@@ -28725,7 +28723,7 @@ exports.withViewport = withViewport;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var ReactDOM = __webpack_require__(52);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var DISTANCE_FOR_DRAG_SQUARED = 25; // the minimum mouse move distance to treat it as drag event
 var MOUSEDOWN_PRIMARY_BUTTON = 0; // for mouse down event we are using ev.button property, 0 means left button
 var MOUSEMOVE_PRIMARY_BUTTON = 1; // for mouse move event we are using ev.buttons property, 1 means left button
@@ -29020,7 +29018,7 @@ exports.DragDropHelper = DragDropHelper;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var DirectionalHint_1 = __webpack_require__(12);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var RectangleEdge;
 (function (RectangleEdge) {
     RectangleEdge[RectangleEdge["top"] = 0] = "top";
@@ -29570,7 +29568,7 @@ var _a, _b, _c, _d;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var interfaces_1 = __webpack_require__(30);
-var Utilities_1 = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var Selection = (function () {
     function Selection(options) {
         if (options === void 0) { options = {}; }
@@ -29828,8 +29826,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var Utilities_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
+var Utilities_1 = __webpack_require__(0);
 var SelectionLayout_1 = __webpack_require__(146);
 var interfaces_1 = __webpack_require__(30);
 // Selection definitions:
@@ -41723,7 +41721,7 @@ module.exports = traverseAllChildren;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
+var React = __webpack_require__(1);
 var ReactDOM = __webpack_require__(52);
 var app_1 = __webpack_require__(172);
 ReactDOM.render(React.createElement(app_1.default, null), document.getElementById('root'));

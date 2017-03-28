@@ -12,7 +12,9 @@
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
+    "node-sass": "^4.5.1",
     "react-scripts": "0.9.5",
+    "sass-loader": "^6.0.3",
     "ts-loader": "^2.0.3",
     "typescript": "^2.2.1",
     "webpack": "^2.3.1",
